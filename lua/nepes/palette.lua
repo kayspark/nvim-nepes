@@ -1,16 +1,16 @@
 local M = {}
 
 M.dark = {
-  bg_deep    = "#141416",
-  bg         = "#1C1C1E",
-  bg_dim     = "#242426",
-  bg_alt     = "#2C2C2E",
-  bg_hl      = "#3A3A3E",
-  bg_overlay = "#484850",
-  fg         = "#D8D8DC",
-  fg_dim     = "#B0B0B6",
-  fg_subtle  = "#8E8E96",
-  fg_muted   = "#6E6E78",
+  bg_deep    = "#161412",
+  bg         = "#1E1C1A",
+  bg_dim     = "#262422",
+  bg_alt     = "#2E2C2A",
+  bg_hl      = "#3E3A38",
+  bg_overlay = "#504848",
+  fg         = "#DCD8D4",
+  fg_dim     = "#B6B0AC",
+  fg_subtle  = "#96908C",
+  fg_muted   = "#787068",
   blue       = "#4A6ABF",
   blue_dim   = "#23438E",
   blue_bright= "#6B8AD8",
@@ -33,8 +33,8 @@ M.dark = {
   yellow_dim = "#C9A63E",
   yellow_bright = "#F5DA7F",
   selection  = "#2D4A6A",
-  border     = "#3A3A3E",
-  comment    = "#6E6E78",
+  border     = "#3E3A38",
+  comment    = "#787068",
   none       = "NONE",
 }
 
