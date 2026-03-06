@@ -59,8 +59,8 @@ function M.get(c, config)
     ["@keyword.function"]       = { fg = c.blue },
     ["@keyword.operator"]       = { fg = c.blue },
     ["@keyword.import"]         = { fg = c.magenta_dim },
-    ["@keyword.return"]         = { fg = c.blue, bold = true },
-    ["@keyword.exception"]      = { fg = c.blue },
+    ["@keyword.return"]         = { fg = c.red, bold = true },
+    ["@keyword.exception"]      = { fg = c.red, bold = true },
     ["@keyword.conditional"]    = { fg = c.blue },
     ["@keyword.repeat"]         = { fg = c.blue },
     ["@keyword.storage"]        = { fg = c.blue },
@@ -77,15 +77,17 @@ function M.get(c, config)
 
     -- Variables
     ["@variable"]               = { fg = c.fg },
-    ["@variable.builtin"]       = { fg = c.orange },
+    ["@variable.builtin"]       = { fg = c.red, italic = true },
     ["@variable.parameter"]     = { fg = c.fg_dim },
     ["@variable.member"]        = { fg = c.fg_dim },
 
     -- Strings & literals
     ["@string"]                 = { fg = c.green },
-    ["@string.escape"]          = { fg = c.green_dim },
-    ["@string.regex"]           = { fg = c.green_bright },
+    ["@string.escape"]          = { fg = c.orange, bold = true },
+    ["@string.regex"]           = { fg = c.orange },
     ["@string.special"]         = { fg = c.green_dim },
+    ["@string.special.symbol"]   = { fg = c.cyan },
+    ["@string.special.url"]      = { fg = c.blue_bright, underline = true },
     ["@string.documentation"]   = { fg = c.comment },
     ["@character"]              = { fg = c.green },
     ["@character.special"]      = { fg = c.orange },
@@ -119,10 +121,10 @@ function M.get(c, config)
     -- Comments
     ["@comment"]                = { fg = c.comment, italic = true },
     ["@comment.documentation"]  = { fg = c.comment, italic = true },
-    ["@comment.todo"]           = { fg = c.orange, bold = true },
-    ["@comment.note"]           = { fg = c.blue, bold = true },
-    ["@comment.warning"]        = { fg = c.orange, bold = true },
-    ["@comment.error"]          = { fg = c.red, bold = true },
+    ["@comment.todo"]           = { fg = c.bg, bg = c.cyan, bold = true },
+    ["@comment.note"]           = { fg = c.bg, bg = c.blue, bold = true },
+    ["@comment.warning"]        = { fg = c.bg, bg = c.orange, bold = true },
+    ["@comment.error"]          = { fg = c.bg, bg = c.red, bold = true },
 
     -- Tags (HTML/JSX)
     ["@tag"]                    = { fg = c.blue },

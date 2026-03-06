@@ -6,7 +6,7 @@ local M = {}
 ---@return table Merged highlight groups
 function M.get(c, config)
   local highlights = {}
-  local modules = { "editor", "syntax", "lsp", "plugins" }
+  local modules = { "editor", "syntax", "semantic", "lsp", "plugins" }
 
   for _, mod in ipairs(modules) do
     local ok, h = pcall(require, "nepes.highlights." .. mod)
