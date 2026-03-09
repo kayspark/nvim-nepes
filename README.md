@@ -2,6 +2,18 @@
 
 A Neovim colorscheme inspired by the Nepes corporate identity. Supports dark and light themes with full treesitter, LSP, and LazyVim plugin coverage.
 
+## Screenshots
+
+| Dark | Light |
+|------|-------|
+| ![Dark](docs/dark.png) | ![Light](docs/light.png) |
+
+### Demo
+
+| Dark | Light |
+|------|-------|
+| ![Dark](docs/dark.gif) | ![Light](docs/light.gif) |
+
 ## Features
 
 - Dark and light variants
